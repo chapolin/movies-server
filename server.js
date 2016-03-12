@@ -14,6 +14,8 @@ app.use(express.static(__dirname + "/statics"));
 // Add headers
 app.use(function (req, res, next) {
   res.setHeader("Access-Control-Allow-Origin", "*");
+  
+  next();
 });
 
 // Comming up routes
