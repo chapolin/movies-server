@@ -11,6 +11,11 @@ app.use(express.bodyParser());
 app.use(methodOverride("X-HTTP-Method-Override"));
 app.use(express.static(__dirname + "/statics"));
 
+// Add headers
+app.use(function (req, res, next) {
+  res.setHeader("Access-Control-Allow-Origin", "*");
+});
+
 // Comming up routes
 fs.readdirSync(routesPath).forEach(function(file) {
   require(__dirname + "/routes/" + file)(app);
