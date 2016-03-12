@@ -1,0 +1,28 @@
+{
+  "name": "movies-love",
+  "version": "1.0.0",
+  "description": "Movies Love: Organize your movies easly ;)",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^3.2.6",
+    "fb": "^1.0.2",
+    "lodash": "^3.10.1",
+    "method-override": "^2.3.5"
+  },
+  "engines": {
+    "node": "0.10.x"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://dtrindade@bitbucket.org/dtrindade/movies-server.git"
+  },
+  "keywords": [
+    "movies",
+    "love",
+    "organize"
+  ],
+  "license": "MIT"
+}

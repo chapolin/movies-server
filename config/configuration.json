@@ -1,0 +1,7 @@
+{
+  "app_namespace": "movieslove",
+  "clientId": "1034322169943296",
+  "clientSecret": "2d61124c583afb30118b420be8a9e285",
+  "grantType": "client_credentials",
+  "redirectUri": "http://localhost:8080"
+}
